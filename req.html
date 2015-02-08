@@ -14,7 +14,6 @@
             <script>
             $(function(){
               var title = $(location).attr('search').replace("?n=","").replace(/%20/g," ");
-              console.log(title);
               $('h1').text(title).append(' | Inquiry');
               $('span.painting').text(title);
               $('input#painting').val(title);
