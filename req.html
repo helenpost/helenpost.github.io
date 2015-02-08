@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+            <title>Invoice Inquiry - Helen N. Post</title>
+			            <meta name="description" content="Helen Post is particularly drawn to both color and form in landscapes and in still lifes.  Her landscapes are painted on location, while her still lifes are carefully composed in her studio.  As a colorist, Helen Post tries to express the joy that colors stir in her.  The result is a vibrant interpretation that can be seen in her paintings." />
+			<meta name="keywords" content="Helen Post, Helen N. Post, Helen, Post, Artist, oil painting, pastel painting" />
+            <link href="style/main.css" rel="stylesheet" type="text/css" />
+            <script type="text/javascript" src="script/jquery-1.2.6.min.js"></script>
+            <script type="text/javascript" src="script/jquery.cycle.all.pack.js"></script>
+            <script type="text/javascript" src="script/main.jquery.js"></script>
+            <script>
+            $(function(){
+              var title = $(location).attr('search').replace("?n=","").replace(/%20/g," ");
+              console.log(title);
+              $('h1').text(title).append(' | Inquiry');
+              $('span.painting').text(title);
+              $('input#painting').val(title);
+            });
+            </script>
+            <!--[if lt IE 7]>
+                <script type="text/javascript" src="script/iepngfix_tilebg.js"></script>
+                <style type="text/css">a { behavior: url(script/iepngfix.htc); }</style>
+                <script type="text/javascript">$(function(){setTimeout(function(){$('#slideshow #slideshow-description').css({background:'#000',opacity:0.7});},2000);});</script>
+            <![endif]-->
+
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <div id="top">
+
+                <a id="logo" href="index.html">Helen N. Post</a>
+
+                <ul id="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="galleries.html">Galleries</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <div id="content-wrapper">
+
+                <div id="content">
+
+                    <div id="left">
+
+                        <h1> | Inquiry</h1>
+
+
+ <h3>Thank you for your interest, please fill out the form below</h3>
+
+ <p>Please contact us through the form below to purchase <span class="painting">this painting</span>.  After your message is sent, we will get back to you as soon as possible with an invoice for this specific piece of art.</p>
+
+                 <div id="emailForm">
+                     <form action="https://getsimpleform.com/messages?form_api_token=d35fa06ad03a993e424e818a0edb8ef6" method="post" id="contact-form" class="normal-form">
+                      <input type='hidden' name='redirect_to' value='http://helenpost.com/thank-you.html' />
+             <ol>
+             	<li>
+                 <label for="name">Painting</label>
+                                    <input id="painting" name="painting" value="" class="text" />
+				</li>
+                <li>
+                 <label for="name">Your name <span>*</span></label>
+                                    <input id="name" name="name" value="" class="text" />
+				</li>
+                <div class="clear"></div>
+                <li>
+                 <label for="email">Your email address <span>*</span></label>
+                                    <input id="email" name="email" value="" class="text" />
+                </li>
+                                <div class="clear"></div>
+                <li>
+                 <label for="phone">Your telephone number</label>
+                                    <input id="phone" name="phone" value="" class="text" />
+                </li>
+                <li>
+                                    <label for="message">Message/Question <span>*</span></label>
+                                    <textarea id="message" name="message"></textarea>
+                </li>
+                                <div class="clear"></div>
+				<li>
+                                    <input type="submit" value="Send Message" id="submit" class="button" />
+                </li>
+			</ol>
+
+
+		</form>
+                    </div>
+                    </div><!-- end left -->
+
+                    <div id="right">
+                         <h3>Payment Information</h3>
+                 <p><img src="img/checkout.gif" alt="Google Checkout" /></p>
+                 <p>We use Google Checkout for our payment processing.  Google Checkout accepts all major credit cards.</p>
+
+
+                 <h3>Shipping Information</h3>
+                 <p>We use <a href="http://airfloatsys.com/shop/index.php">Airfloat System's "Strongbox"</a> to ship the art.  Airfloat Systems is a company that specializes in packaging art.</p>
+                 <p>Aside from the cost of this piece of art, your shipping costs will include the price of the Airfloat Systems package, postage and insurance.  You will be provided with an invoice that itemizes these costs and then you will be asked to provide your credit card information through Google Checkout.  </p>
+                                  <p>Please allow 2-3 weeks for delivery of your art.</p>
+                        <ul class="gallery-choices">
+
+                            <li><a href="gallery-still-life.html"><img src="img/gallery-stilllife.gif" height="97" width="403" alt="See Still Life Gallery" /></a></li>
+                            <li><a href="gallery-landscape.html"><img src="img/gallery-landscape.gif" height="97" width="403" alt="See Landscape Gallery" /></a></li>
+							<li><a href="gallery-mixed-media.html"><img src="img/gallery-mixed-media.gif" height="97" width="403" alt="See Mixed Media Gallery" /></a></li>
+							<li><a href="gallery-portrait.html"><img src="img/gallery-portrait.gif" height="97" width="403" alt="See Portrait Gallery" /></a></li>
+
+                        </ul>
+
+                    </div> <!-- end right -->
+
+
+                </div><!-- end content -->
+                <!-- /DIV:Content -->
+
+            </div><!-- end content wrapper -->
+
+        </div><!-- end container-->
+
+        <div id="foot">
+
+            <p id="foot-menu">
+				<a href="index.html">Home</a> | <a href="about.html">About Me</a> | <a href="galleries.html">Galleries</a> | <a href="contact.html">Contact</a>
+            </p>
+
+            <p id="copyright-info">
+                &copy; 2008-<script type="text/javascript">
+  document.write(new Date().getFullYear());
+</script> Helen N. Post.  All Rights Reserved.
+            </p>
+        </div><!-- end foot -->
+
+        <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-486826-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+    </body>
+</html>
